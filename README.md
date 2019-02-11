@@ -14,7 +14,10 @@ First, build database (SQLite):
 
 ### Mac/Linux:
 
-TODO
+`pip install gunicorn`
+`gunicorn --reload alkanza.app`
+
+Project runs by default on localhost:8000
 
 ## 3. API endpoints
 
